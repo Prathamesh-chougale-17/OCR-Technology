@@ -9,13 +9,14 @@ To implement this project, you will need to install tessaract:
  ```terminal
  pip install pytesseract
  ```
- 1. copy the code present in the file text.py and paste it in your python file. But in pt.pytesseract.tesseract_cmd we have set the path of the tesseract.exe file. So you have to change the path according to your system.mostly the path will be like this : 
+
+ 4. copy the code present in the file text.py and paste it in your python file. But in pt.pytesseract.tesseract_cmd we have set the path of the tesseract.exe file. So you have to change the path according to your system.mostly the path will be like this : 
 ```
 pt.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 ```
      
 
- 1. After that you could run the code and see the output. Use py [python file name] to run the code. For example: 
+ 5. After that you could run the code and see the output. Use py [python file name] to run the code. For example: 
 ```terminal
 py test.py
 ```
