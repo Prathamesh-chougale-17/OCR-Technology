@@ -5,7 +5,7 @@ from PIL import Image
 
 # import cv2
 
-img = Image.open("test6.jpg")
+img = Image.open("test4.png")
 text = pt.image_to_string(img)
 
 # pt.pytesseract.tesseract_cmd = "D:\\Tesserract\\tesseract.exe"
